@@ -5,7 +5,8 @@ ENV TZ=Asia/Shanghai \
     LIBRARY_ID='' \
     MODEL='gpt-3.5-turbo' \
     BOT_TOKEN='' \
-    BOT_NAME=''
+    BOT_NAME='' \
+    ALLOW_CHAT_ID=''
 
 # 设定工作目录
 WORKDIR /app
