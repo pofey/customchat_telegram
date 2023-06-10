@@ -23,8 +23,5 @@ RUN apt-get -y update \
 # 将我们的源代码复制到容器中
 COPY main.py /app
 
-# 暴露端口，使其可以从外部访问
-EXPOSE 10010
-
 # 启动应用程序
-CMD ["python3", "main.py", "--host", "0.0.0.0", "--port", "10010"]
+CMD ["python3", "main.py"]
